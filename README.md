@@ -1,32 +1,23 @@
-# Firebase 연동
+# 보건소 위치 안내 서비스
 
-- FB 계정에 프로젝트 생성
-- https://firebase.google.com/?hl=ko
-- console 화면으로 이동
-- 프로젝트 추가
-  : health-center
-  : GA 설정 하지 않는다.
-- 완료 후 설정 확인하기
-  : 프로젝트 개요 > 프로젝트 설정 > 웹 앱 선택 > 웹 앱에 Firebase 추가
-  : '보건소 위치 서비스' > 앱 등록
+## 배포
 
-## 1. Firebase 데이터베이스 사용 신청
+- vercel()
 
-: Firestore Database 항목 선택
-: Cloud Firestore 서비스 신청
-: asia-northeast3 (Seoul)
-: 테스트 모드에서 시작
-: 완료
+## 활용 기술
 
-## 2. Firebase Config 파일 만들기
+- 네이버 지도 API
+- FireBase storage
+- Next.js (14)
+- TailWind
+- SWR
+- TypeScript
+- SASS
+- copy-to-clipboard
+- Git/GitHub
+- 공공API(보건소 API)
 
-- 설정 정보 확인하기
-  : 프로젝트 개요 > 프로젝트 설정
-  : SDK 설정 및 구성 정보 확인
-- FB npm/yarn 설치
-  : npm install firebase
-  : yarn add firebase
-  : package.json 확인
+## 프로젝트 빌드시 주의사항
 
 - 설정 정보 보관하기
   : .env 파일이 변경되면 다시 서버를 실행해야 적용이 됩니다.
